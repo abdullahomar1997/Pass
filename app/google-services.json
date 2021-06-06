@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "335077719269",
+    "firebase_url": "https://passa-2bb8c-default-rtdb.firebaseio.com",
+    "project_id": "passa-2bb8c",
+    "storage_bucket": "passa-2bb8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335077719269:android:2fb315a0b2c55a65bf280c",
+        "android_client_info": {
+          "package_name": "com.example.passCardGame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335077719269-bqundv5jutm4jtqagfjpmocries875m6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_rb2zw84OVH6Dcee6BkG0CB-s8WRz7KM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335077719269-bqundv5jutm4jtqagfjpmocries875m6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335077719269:android:80a1c8f1b0c06cb4bf280c",
+        "android_client_info": {
+          "package_name": "com.example.passa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335077719269-bqundv5jutm4jtqagfjpmocries875m6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_rb2zw84OVH6Dcee6BkG0CB-s8WRz7KM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335077719269-bqundv5jutm4jtqagfjpmocries875m6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

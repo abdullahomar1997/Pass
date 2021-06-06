@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/playerinfoitem"
+    android:background="@color/playerinfoBackground"
+    android:paddingLeft="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/playernametv2"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:text="Abdullah"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/playerpasstv2"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:text="2"
+        android:textColor="@android:color/white"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/playercardiv2"
+        android:layout_marginLeft="10dp"
+        android:layout_width="40dp"
+        android:layout_height="55dp"
+        android:padding="2dp"
+        app:srcCompat="@drawable/sq" />
+</LinearLayout>

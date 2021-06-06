@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid
+        android:color="@color/playerinfoBackground">
+    </solid>
+    <!--8ea725 no green 6,5,4,3,2,1 631f0a-->
+
+    <!-- View border color and width -->
+    <stroke
+        android:width="1dp"
+        android:color="@color/black" >
+    </stroke>
+
+    <!-- The radius makes the corners rounded -->
+    <corners
+        android:radius="50dp"   >
+    </corners>
+</shape>
