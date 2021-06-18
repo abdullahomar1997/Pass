@@ -2,8 +2,8 @@
 <resources>
     <dimen name="selectedcardwidth">60dp</dimen>
     <dimen name="cardwidth">60dp</dimen>
-    <dimen name="cardheight">26dp</dimen>
-    <dimen name="horizontalcardslayout">23dp</dimen>
+    <dimen name="cardheight">70dp</dimen>
+    <dimen name="horizontalcardslayout">70dp</dimen>
     <dimen name="selectcardwidth">0dp</dimen>
     <dimen name="selectcardheight">75dp</dimen>
     <dimen name="tablecardwidth">50dp</dimen>
