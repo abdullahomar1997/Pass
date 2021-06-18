@@ -601,41 +601,42 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="23dp"
+                            android:layout_height="70dp"
                             android:orientation="horizontal">
 
                             <ImageView
                                 android:id="@+id/carda1"
                                 android:layout_width="@dimen/cardwidth"
-                                android:layout_height="26dp"
+                                android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/san" />
+                                app:srcCompat="@drawable/sa" />
 
                             <ImageView
                                 android:id="@+id/cardb1"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/han" />
+                                app:srcCompat="@drawable/ha" />
 
                             <ImageView
                                 android:id="@+id/cardc1"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/fan" />
+                                app:srcCompat="@drawable/fa" />
 
                             <ImageView
                                 android:id="@+id/cardd1"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
-                                app:srcCompat="@drawable/dan" />
+                                app:srcCompat="@drawable/da" />
 
                         </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="@dimen/horizontalcardslayout"
+                            android:layout_marginTop="-53dp"
                             android:orientation="horizontal">
 
                             <ImageView
@@ -643,33 +644,34 @@
                                 android:layout_width="60dp"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/skn" />
+                                app:srcCompat="@drawable/sk" />
 
                             <ImageView
                                 android:id="@+id/cardb2"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/hkn" />
+                                app:srcCompat="@drawable/hk" />
 
                             <ImageView
                                 android:id="@+id/cardc2"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/fkn" />
+                                app:srcCompat="@drawable/fk" />
 
                             <ImageView
                                 android:id="@+id/cardd2"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
-                                app:srcCompat="@drawable/dkn" />
+                                app:srcCompat="@drawable/dk" />
 
                         </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="@dimen/horizontalcardslayout"
+                            android:layout_marginTop="-53dp"
                             android:orientation="horizontal">
 
                             <ImageView
@@ -677,33 +679,34 @@
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/sqn" />
+                                app:srcCompat="@drawable/sq" />
 
                             <ImageView
                                 android:id="@+id/cardb3"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/hqn" />
+                                app:srcCompat="@drawable/hq" />
 
                             <ImageView
                                 android:id="@+id/cardc3"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/fqn" />
+                                app:srcCompat="@drawable/fq" />
 
                             <ImageView
                                 android:id="@+id/cardd3"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
-                                app:srcCompat="@drawable/dqn" />
+                                app:srcCompat="@drawable/dq" />
 
                         </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="@dimen/horizontalcardslayout"
+                            android:layout_marginTop="-53dp"
                             android:orientation="horizontal">
 
                             <ImageView
@@ -711,33 +714,34 @@
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/sjn" />
+                                app:srcCompat="@drawable/sj" />
 
                             <ImageView
                                 android:id="@+id/cardb4"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/hjn" />
+                                app:srcCompat="@drawable/hj" />
 
                             <ImageView
                                 android:id="@+id/cardc4"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/fjn" />
+                                app:srcCompat="@drawable/fj" />
 
                             <ImageView
                                 android:id="@+id/cardd4"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
-                                app:srcCompat="@drawable/djn" />
+                                app:srcCompat="@drawable/dj" />
 
                         </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="@dimen/horizontalcardslayout"
+                            android:layout_marginTop="-53dp"
                             android:orientation="horizontal">
 
                             <ImageView
@@ -745,33 +749,34 @@
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/s10n" />
+                                app:srcCompat="@drawable/s10" />
 
                             <ImageView
                                 android:id="@+id/cardb5"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/h10n" />
+                                app:srcCompat="@drawable/h10" />
 
                             <ImageView
                                 android:id="@+id/cardc5"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/f10n" />
+                                app:srcCompat="@drawable/f10" />
 
                             <ImageView
                                 android:id="@+id/cardd5"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
-                                app:srcCompat="@drawable/d10n" />
+                                app:srcCompat="@drawable/d10" />
 
                         </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="@dimen/horizontalcardslayout"
+                            android:layout_marginTop="-53dp"
                             android:orientation="horizontal">
 
                             <ImageView
@@ -779,33 +784,34 @@
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/s9n" />
+                                app:srcCompat="@drawable/s9" />
 
                             <ImageView
                                 android:id="@+id/cardb6"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/h9n" />
+                                app:srcCompat="@drawable/h9" />
 
                             <ImageView
                                 android:id="@+id/cardc6"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/f9n" />
+                                app:srcCompat="@drawable/f9" />
 
                             <ImageView
                                 android:id="@+id/cardd6"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
-                                app:srcCompat="@drawable/d9n" />
+                                app:srcCompat="@drawable/d9" />
 
                         </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="@dimen/horizontalcardslayout"
+                            android:layout_marginTop="-53dp"
                             android:orientation="horizontal">
 
                             <ImageView
@@ -813,33 +819,34 @@
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/s8n" />
+                                app:srcCompat="@drawable/s8" />
 
                             <ImageView
                                 android:id="@+id/cardb7"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/h8n" />
+                                app:srcCompat="@drawable/h8" />
 
                             <ImageView
                                 android:id="@+id/cardc7"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/f8n" />
+                                app:srcCompat="@drawable/f8" />
 
                             <ImageView
                                 android:id="@+id/cardd7"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
-                                app:srcCompat="@drawable/d8n" />
+                                app:srcCompat="@drawable/d8" />
 
                         </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="@dimen/horizontalcardslayout"
+                            android:layout_marginTop="-53dp"
                             android:orientation="horizontal">
 
                             <ImageView
@@ -847,33 +854,34 @@
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/s7n" />
+                                app:srcCompat="@drawable/s7" />
 
                             <ImageView
                                 android:id="@+id/cardb8"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/h7n" />
+                                app:srcCompat="@drawable/h7" />
 
                             <ImageView
                                 android:id="@+id/cardc8"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/f7n" />
+                                app:srcCompat="@drawable/f7" />
 
                             <ImageView
                                 android:id="@+id/cardd8"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
-                                app:srcCompat="@drawable/d7n" />
+                                app:srcCompat="@drawable/d7" />
 
                         </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="@dimen/horizontalcardslayout"
+                            android:layout_marginTop="-53dp"
                             android:orientation="horizontal">
 
                             <ImageView
@@ -881,33 +889,34 @@
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/s6n" />
+                                app:srcCompat="@drawable/s6" />
 
                             <ImageView
                                 android:id="@+id/cardb9"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/h6n" />
+                                app:srcCompat="@drawable/h6" />
 
                             <ImageView
                                 android:id="@+id/cardc9"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/f6n" />
+                                app:srcCompat="@drawable/f6" />
 
                             <ImageView
                                 android:id="@+id/cardd9"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
-                                app:srcCompat="@drawable/d6n" />
+                                app:srcCompat="@drawable/d6" />
 
                         </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="@dimen/horizontalcardslayout"
+                            android:layout_marginTop="-53dp"
                             android:orientation="horizontal">
 
                             <ImageView
@@ -915,33 +924,34 @@
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="match_parent"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/s5n" />
+                                app:srcCompat="@drawable/s5" />
 
                             <ImageView
                                 android:id="@+id/cardb10"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/h5n" />
+                                app:srcCompat="@drawable/h5" />
 
                             <ImageView
                                 android:id="@+id/cardc10"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/f5n" />
+                                app:srcCompat="@drawable/f5" />
 
                             <ImageView
                                 android:id="@+id/cardd10"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
-                                app:srcCompat="@drawable/d5n" />
+                                app:srcCompat="@drawable/d5" />
 
                         </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="@dimen/horizontalcardslayout"
+                            android:layout_marginTop="-53dp"
                             android:orientation="horizontal">
 
                             <ImageView
@@ -949,32 +959,33 @@
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/s4n" />
+                                app:srcCompat="@drawable/s4" />
 
                             <ImageView
                                 android:id="@+id/cardb11"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/h4n" />
+                                app:srcCompat="@drawable/h4" />
 
                             <ImageView
                                 android:id="@+id/cardc11"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/f4n" />
+                                app:srcCompat="@drawable/f4" />
 
                             <ImageView
                                 android:id="@+id/cardd11"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
-                                app:srcCompat="@drawable/d4n" />
+                                app:srcCompat="@drawable/d4" />
 
                         </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="match_parent"
+                            android:layout_marginTop="-53dp"
                             android:layout_height="@dimen/horizontalcardslayout"
                             android:orientation="horizontal">
 
@@ -983,33 +994,34 @@
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/s3n" />
+                                app:srcCompat="@drawable/s3" />
 
                             <ImageView
                                 android:id="@+id/cardb12"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/h3n" />
+                                app:srcCompat="@drawable/h3" />
 
                             <ImageView
                                 android:id="@+id/cardc12"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/f3n" />
+                                app:srcCompat="@drawable/f3" />
 
                             <ImageView
                                 android:id="@+id/cardd12"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
-                                app:srcCompat="@drawable/d3n" />
+                                app:srcCompat="@drawable/d3" />
 
                         </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="@dimen/horizontalcardslayout"
+                            android:layout_marginTop="-53dp"
                             android:orientation="horizontal">
 
                             <ImageView
@@ -1017,27 +1029,27 @@
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/s2n" />
+                                app:srcCompat="@drawable/s2" />
 
                             <ImageView
                                 android:id="@+id/cardb13"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/h2n" />
+                                app:srcCompat="@drawable/h2" />
 
                             <ImageView
                                 android:id="@+id/cardc13"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
                                 android:layout_marginRight="5dp"
-                                app:srcCompat="@drawable/f2n" />
+                                app:srcCompat="@drawable/f2" />
 
                             <ImageView
                                 android:id="@+id/cardd13"
                                 android:layout_width="@dimen/cardwidth"
                                 android:layout_height="@dimen/cardheight"
-                                app:srcCompat="@drawable/d2n" />
+                                app:srcCompat="@drawable/d2" />
 
                         </LinearLayout>
 

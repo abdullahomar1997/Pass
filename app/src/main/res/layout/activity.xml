@@ -1,228 +1,283 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="wrap_content"
-    android:layout_height="50dp"
-    android:orientation="horizontal">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/backofcardimage5" />
+
+        <ImageView
+            android:id="@+id/imageView2111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="-280dp"
+            app:srcCompat="@drawable/backofcardimage5" />
+
+        <ImageView
+            android:id="@+id/imageView2112"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="-280dp"
+            app:srcCompat="@drawable/backofcardimage5" />
+
+        <ImageView
+            android:id="@+id/imageView2113"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="-280dp"
+            app:srcCompat="@drawable/backofcardimage5" />
+
+        <ImageView
+            android:id="@+id/imageView2114"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="-280dp"
+            app:srcCompat="@drawable/backofcardimage5" />
+
+        <ImageView
+            android:id="@+id/imageView2115"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="-280dp"
+            app:srcCompat="@drawable/backofcardimage5" />
+
+        <ImageView
+            android:id="@+id/imageView2116"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="-280dp"
+            app:srcCompat="@drawable/backofcardimage5" />
+
+        <ImageView
+            android:id="@+id/imageView2117"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="-280dp"
+            app:srcCompat="@drawable/backofcardimage5" />
+
+        <ImageView
+            android:id="@+id/imageView2118"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="-280dp"
+            app:srcCompat="@drawable/backofcardimage5" />
+
+        <ImageView
+            android:id="@+id/imageView2119"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="-280dp"
+            app:srcCompat="@drawable/backofcardimage5" />
+
+        <ImageView
+            android:id="@+id/imageView2121"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="-280dp"
+            app:srcCompat="@drawable/backofcardimage5" />
+
+        <ImageView
+            android:id="@+id/imageView2122"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="-280dp"
+            app:srcCompat="@drawable/backofcardimage5" />
+
+        <ImageView
+            android:id="@+id/imageView2123"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="-280dp"
+            app:srcCompat="@drawable/backofcardimage5" />
+
+        <ImageView
+            android:id="@+id/imageView2124"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="-280dp"
+            app:srcCompat="@drawable/backofcardimage5" />
+
+        <ImageView
+            android:id="@+id/imageView2125"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="-280dp"
+            app:srcCompat="@drawable/backofcardimage5" />
+
+        <ImageView
+            android:id="@+id/imageView2126"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="-280dp"
+            app:srcCompat="@drawable/backofcardimage5" />
+
+        <ImageView
+            android:id="@+id/imageView2127"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="-280dp"
+            app:srcCompat="@drawable/backofcardimage5" />
+
+        <ImageView
+            android:id="@+id/imageView2128"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="-280dp"
+            app:srcCompat="@drawable/backofcardimage5" />
+
+        <ImageView
+            android:id="@+id/imageView2129"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="-280dp"
+            app:srcCompat="@drawable/backofcardimage5" />
+
+        <ImageView
+            android:id="@+id/imageView2130"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="-280dp"
+            app:srcCompat="@drawable/backofcardimage5" />
+
+        <ImageView
+            android:id="@+id/imageView2131"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="-280dp"
+            app:srcCompat="@drawable/backofcardimage5" />
+
+        <ImageView
+            android:id="@+id/imageView2132"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="-280dp"
+            app:srcCompat="@drawable/backofcardimage5" />
+        <ImageView
+            android:id="@+id/imageView2133"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="-280dp"
+            app:srcCompat="@drawable/backofcardimage5" />
+        <ImageView
+            android:id="@+id/imageView2134"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="-280dp"
+            app:srcCompat="@drawable/backofcardimage5" />
+        <ImageView
+            android:id="@+id/imageView2135"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="-280dp"
+            app:srcCompat="@drawable/backofcardimage5" />
+        <ImageView
+            android:id="@+id/imageView2136"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="-280dp"
+            app:srcCompat="@drawable/backofcardimage5" />
+
+        <ImageView
+            android:id="@+id/imageView2137"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="-280dp"
+            app:srcCompat="@drawable/backofcardimage5" />
+
+        <ImageView
+            android:id="@+id/imageView2138"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="-280dp"
+            app:srcCompat="@drawable/backofcardimage5" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView10n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/backofcardimage5" />
+
+        <ImageView
+            android:id="@+id/imageView2111b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="-280dp"
+            app:srcCompat="@drawable/backofcardimage5" />
+
+        <ImageView
+            android:id="@+id/imageView211h1b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="-280dp"
+            app:srcCompat="@drawable/backofcardimage5" />
+
+        <ImageView
+            android:id="@+id/imagceView2111b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="-280dp"
+            app:srcCompat="@drawable/backofcardimage5" />
+
+        <ImageView
+            android:id="@+id/imageViegw2111b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="-280dp"
+            app:srcCompat="@drawable/backofcardimage5" />
+
+    </LinearLayout>
 
 
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        app:srcCompat="@drawable/backofcardimage5" />
-
-    <ImageView
-        android:id="@+id/imageView2111"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginLeft="-280dp"
-        app:srcCompat="@drawable/backofcardimage5" />
-
-    <ImageView
-        android:id="@+id/imageView2112"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginLeft="-280dp"
-        app:srcCompat="@drawable/backofcardimage5" />
-
-    <ImageView
-        android:id="@+id/imageView2113"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginLeft="-280dp"
-        app:srcCompat="@drawable/backofcardimage5" />
-
-    <ImageView
-        android:id="@+id/imageView2114"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginLeft="-280dp"
-        app:srcCompat="@drawable/backofcardimage5" />
-
-    <ImageView
-        android:id="@+id/imageView2115"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginLeft="-280dp"
-        app:srcCompat="@drawable/backofcardimage5" />
-
-    <ImageView
-        android:id="@+id/imageView2116"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginLeft="-280dp"
-        app:srcCompat="@drawable/backofcardimage5" />
-
-    <ImageView
-        android:id="@+id/imageView2117"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginLeft="-280dp"
-        app:srcCompat="@drawable/backofcardimage5" />
-
-    <ImageView
-        android:id="@+id/imageView2118"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginLeft="-280dp"
-        app:srcCompat="@drawable/backofcardimage5" />
-
-    <ImageView
-        android:id="@+id/imageView2119"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginLeft="-280dp"
-        app:srcCompat="@drawable/backofcardimage5" />
-
-    <ImageView
-        android:id="@+id/imageView2121"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginLeft="-280dp"
-        app:srcCompat="@drawable/backofcardimage5" />
-
-    <ImageView
-        android:id="@+id/imageView2122"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginLeft="-280dp"
-        app:srcCompat="@drawable/backofcardimage5" />
-
-    <ImageView
-        android:id="@+id/imageView2123"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginLeft="-280dp"
-        app:srcCompat="@drawable/backofcardimage5" />
-
-    <ImageView
-        android:id="@+id/imageView2124"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginLeft="-280dp"
-        app:srcCompat="@drawable/backofcardimage5" />
-
-    <ImageView
-        android:id="@+id/imageView2125"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginLeft="-280dp"
-        app:srcCompat="@drawable/backofcardimage5" />
-
-    <ImageView
-        android:id="@+id/imageView2126"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginLeft="-280dp"
-        app:srcCompat="@drawable/backofcardimage5" />
-
-    <ImageView
-        android:id="@+id/imageView2127"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginLeft="-280dp"
-        app:srcCompat="@drawable/backofcardimage5" />
-
-    <ImageView
-        android:id="@+id/imageView2128"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginLeft="-280dp"
-        app:srcCompat="@drawable/backofcardimage5" />
-
-    <ImageView
-        android:id="@+id/imageView2129"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginLeft="-280dp"
-        app:srcCompat="@drawable/backofcardimage5" />
-
-    <ImageView
-        android:id="@+id/imageView2130"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginLeft="-280dp"
-        app:srcCompat="@drawable/backofcardimage5" />
-
-    <ImageView
-        android:id="@+id/imageView2131"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginLeft="-280dp"
-        app:srcCompat="@drawable/backofcardimage5" />
-
-    <ImageView
-        android:id="@+id/imageView2132"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginLeft="-280dp"
-        app:srcCompat="@drawable/backofcardimage5" />
-    <ImageView
-        android:id="@+id/imageView2133"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginLeft="-280dp"
-        app:srcCompat="@drawable/backofcardimage5" />
-    <ImageView
-        android:id="@+id/imageView2134"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginLeft="-280dp"
-        app:srcCompat="@drawable/backofcardimage5" />
-    <ImageView
-        android:id="@+id/imageView2135"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginLeft="-280dp"
-        app:srcCompat="@drawable/backofcardimage5" />
-    <ImageView
-        android:id="@+id/imageView2136"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginLeft="-280dp"
-        app:srcCompat="@drawable/backofcardimage5" />
-
-    <ImageView
-        android:id="@+id/imageView2137"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginLeft="-280dp"
-        app:srcCompat="@drawable/backofcardimage5" />
-
-    <ImageView
-        android:id="@+id/imageView2138"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_marginLeft="-280dp"
-        app:srcCompat="@drawable/backofcardimage5" />
 
 </LinearLayout>
