@@ -113,6 +113,8 @@
                         android:layout_weight="1"
                         app:srcCompat="@drawable/backofcardimage5" />
 
+
+
                     <ImageView
                         android:id="@+id/imageView2112"
                         android:layout_width="wrap_content"
@@ -320,6 +322,15 @@
                         android:layout_marginLeft="-280dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/backofcardimage5" />
+
+                    <ImageView
+                        android:id="@+id/passcard3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="-280dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/passcardrotate" />
+
 
                 </LinearLayout>
 
@@ -569,6 +580,14 @@
                             android:layout_height="90dp"
                             android:layout_marginTop="-80dp"
                             app:srcCompat="@drawable/backofcardimage4" />
+
+                        <ImageView
+                            android:id="@+id/passcard2"
+                            android:layout_width="48dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_height="90dp"
+                            android:layout_marginTop="-80dp"
+                            app:srcCompat="@drawable/passcard" />
 
                     </LinearLayout>
 
@@ -1214,6 +1233,15 @@
                             android:layout_height="90dp"
                             android:layout_marginTop="-80dp"
                             app:srcCompat="@drawable/backofcardimage4" />
+
+                        <ImageView
+                            android:id="@+id/passcard4"
+                            android:layout_width="48dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_height="90dp"
+                            android:layout_marginTop="-80dp"
+                            app:srcCompat="@drawable/passcard" />
+
 
                     </LinearLayout>
 
