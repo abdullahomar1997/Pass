@@ -18,7 +18,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:background="@drawable/border_title1"
             android:orientation="horizontal">
 
             <RelativeLayout
@@ -33,7 +32,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
-                    android:background="@drawable/border_title1"
                     android:orientation="vertical"
                     android:padding="1dp">
 
@@ -44,12 +42,14 @@
                         android:layout_alignParentTop="true"
                         android:orientation="horizontal">
 
-                        <ImageView
+                        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
                             android:id="@+id/playeravatar2"
-                            android:layout_width="40dp"
+                            android:layout_width="55dp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="1dp"
-                            android:src="@drawable/noimage" />
+                            android:src="@drawable/dgb10"
+                            app:civ_border_color="#FF000000"
+                            app:civ_border_width="2dp" />
 
                         <RelativeLayout
                             android:layout_width="wrap_content"
@@ -86,7 +86,7 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/car2"
                         android:layout_centerInParent="true"
-                        android:text=""
+                        android:text="Haykyuu"
                         android:textColor="@color/white"
                         android:textSize="8dp" />
                 </RelativeLayout>
@@ -109,212 +109,216 @@
                         android:id="@+id/imageView2111"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:layout_marginLeft="-280dp"
+                        android:layout_weight="1"
                         app:srcCompat="@drawable/backofcardimage5" />
 
                     <ImageView
                         android:id="@+id/imageView2112"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:layout_marginLeft="-280dp"
+                        android:layout_weight="1"
                         app:srcCompat="@drawable/backofcardimage5" />
 
                     <ImageView
                         android:id="@+id/imageView2113"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:layout_marginLeft="-280dp"
+                        android:layout_weight="1"
                         app:srcCompat="@drawable/backofcardimage5" />
 
                     <ImageView
                         android:id="@+id/imageView2114"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:layout_marginLeft="-280dp"
+                        android:layout_weight="1"
                         app:srcCompat="@drawable/backofcardimage5" />
 
                     <ImageView
                         android:id="@+id/imageView2115"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:layout_marginLeft="-280dp"
+                        android:layout_weight="1"
                         app:srcCompat="@drawable/backofcardimage5" />
 
                     <ImageView
                         android:id="@+id/imageView2116"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:layout_marginLeft="-280dp"
+                        android:layout_weight="1"
                         app:srcCompat="@drawable/backofcardimage5" />
 
                     <ImageView
                         android:id="@+id/imageView2117"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:layout_marginLeft="-280dp"
+                        android:layout_weight="1"
                         app:srcCompat="@drawable/backofcardimage5" />
 
                     <ImageView
                         android:id="@+id/imageView2118"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:layout_marginLeft="-280dp"
+                        android:layout_weight="1"
                         app:srcCompat="@drawable/backofcardimage5" />
 
                     <ImageView
                         android:id="@+id/imageView2119"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:layout_marginLeft="-280dp"
+                        android:layout_weight="1"
                         app:srcCompat="@drawable/backofcardimage5" />
 
                     <ImageView
                         android:id="@+id/imageView2121"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:layout_marginLeft="-280dp"
+                        android:layout_weight="1"
                         app:srcCompat="@drawable/backofcardimage5" />
 
                     <ImageView
                         android:id="@+id/imageView2122"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:layout_marginLeft="-280dp"
+                        android:layout_weight="1"
                         app:srcCompat="@drawable/backofcardimage5" />
 
                     <ImageView
                         android:id="@+id/imageView2123"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:layout_marginLeft="-280dp"
+                        android:layout_weight="1"
                         app:srcCompat="@drawable/backofcardimage5" />
 
                     <ImageView
                         android:id="@+id/imageView2124"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:layout_marginLeft="-280dp"
+                        android:layout_weight="1"
                         app:srcCompat="@drawable/backofcardimage5" />
 
                     <ImageView
                         android:id="@+id/imageView2125"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:layout_marginLeft="-280dp"
+                        android:layout_weight="1"
                         app:srcCompat="@drawable/backofcardimage5" />
 
                     <ImageView
                         android:id="@+id/imageView2126"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:layout_marginLeft="-280dp"
+                        android:layout_weight="1"
                         app:srcCompat="@drawable/backofcardimage5" />
 
                     <ImageView
                         android:id="@+id/imageView2127"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:layout_marginLeft="-280dp"
+                        android:layout_weight="1"
                         app:srcCompat="@drawable/backofcardimage5" />
 
                     <ImageView
                         android:id="@+id/imageView2128"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:layout_marginLeft="-280dp"
+                        android:layout_weight="1"
                         app:srcCompat="@drawable/backofcardimage5" />
 
                     <ImageView
                         android:id="@+id/imageView2129"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:layout_marginLeft="-280dp"
+                        android:layout_weight="1"
                         app:srcCompat="@drawable/backofcardimage5" />
 
                     <ImageView
                         android:id="@+id/imageView2130"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:layout_marginLeft="-280dp"
+                        android:layout_weight="1"
                         app:srcCompat="@drawable/backofcardimage5" />
 
                     <ImageView
                         android:id="@+id/imageView2131"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:layout_marginLeft="-280dp"
+                        android:layout_weight="1"
                         app:srcCompat="@drawable/backofcardimage5" />
 
                     <ImageView
                         android:id="@+id/imageView2132"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:layout_marginLeft="-280dp"
+                        android:layout_weight="1"
                         app:srcCompat="@drawable/backofcardimage5" />
+
                     <ImageView
                         android:id="@+id/imageView2133"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:layout_marginLeft="-280dp"
+                        android:layout_weight="1"
                         app:srcCompat="@drawable/backofcardimage5" />
+
                     <ImageView
                         android:id="@+id/imageView2134"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:layout_marginLeft="-280dp"
+                        android:layout_weight="1"
                         app:srcCompat="@drawable/backofcardimage5" />
+
                     <ImageView
                         android:id="@+id/imageView2135"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:layout_marginLeft="-280dp"
+                        android:layout_weight="1"
                         app:srcCompat="@drawable/backofcardimage5" />
+
                     <ImageView
                         android:id="@+id/imageView2136"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:layout_marginLeft="-280dp"
+                        android:layout_weight="1"
                         app:srcCompat="@drawable/backofcardimage5" />
 
                     <ImageView
                         android:id="@+id/imageView2137"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:layout_marginLeft="-280dp"
+                        android:layout_weight="1"
                         app:srcCompat="@drawable/backofcardimage5" />
 
                     <ImageView
                         android:id="@+id/imageView2138"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
                         android:layout_marginLeft="-280dp"
+                        android:layout_weight="1"
                         app:srcCompat="@drawable/backofcardimage5" />
 
                 </LinearLayout>
@@ -324,8 +328,8 @@
                     android:id="@+id/pointleftiv3"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:layout_marginRight="5dp"
                     android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
                     android:layout_toLeftOf="@id/playerlayout3"
                     android:src="@drawable/pointright" />
 
@@ -334,31 +338,33 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
-                    android:background="@drawable/border_title1"
                     android:orientation="vertical"
                     android:padding="1dp">
 
                     <RelativeLayout
                         android:id="@+id/car3"
                         android:layout_width="wrap_content"
-                        android:layout_height="@dimen/pcnheight"
+                        android:layout_height="50dp"
                         android:layout_alignParentTop="true"
                         android:orientation="horizontal">
 
-                        <ImageView
+                        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
                             android:id="@+id/playeravatar3"
-                            android:layout_width="40dp"
+                            android:layout_width="55dp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="1dp"
                             android:layout_toRightOf="@id/playernums3"
-                            android:src="@drawable/noimage" />
+                            android:src="@drawable/dgb15"
+                            app:civ_border_color="#FF000000"
+                            app:civ_border_width="2dp" />
 
                         <RelativeLayout
                             android:id="@+id/playernums3"
                             android:layout_width="wrap_content"
                             android:layout_height="@dimen/pcnheight"
                             android:layout_marginLeft="5dp"
-                            android:orientation="vertical">
+                            android:orientation="vertical"
+                            android:visibility="gone">
 
                             <TextView
                                 android:id="@+id/playerpass3"
@@ -388,7 +394,7 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/car3"
                         android:layout_centerInParent="true"
-                        android:text=""
+                        android:text="Picalo"
                         android:textColor="@color/white"
                         android:textSize="8dp" />
                 </RelativeLayout>
@@ -397,11 +403,11 @@
             </RelativeLayout>
 
             <RelativeLayout
-                android:layout_marginTop="5dp"
                 android:id="@+id/table"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/playerbar1"
+                android:layout_marginTop="5dp"
                 android:orientation="horizontal">
 
                 <RelativeLayout
@@ -421,8 +427,8 @@
 
                     <LinearLayout
                         android:layout_width="50dp"
-                        android:layout_alignParentBottom="true"
                         android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
                         android:orientation="vertical">
 
                         <ImageView
@@ -434,8 +440,8 @@
                         <ImageView
                             android:id="@+id/imageView9"
                             android:layout_width="wrap_content"
-                            android:layout_marginTop="-80dp"
                             android:layout_height="90dp"
+                            android:layout_marginTop="-80dp"
                             app:srcCompat="@drawable/backofcardimage4" />
 
                         <ImageView
@@ -985,8 +991,8 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_marginTop="-53dp"
                             android:layout_height="@dimen/horizontalcardslayout"
+                            android:layout_marginTop="-53dp"
                             android:orientation="horizontal">
 
                             <ImageView
@@ -1066,8 +1072,8 @@
 
                     <LinearLayout
                         android:layout_width="50dp"
-                        android:layout_alignParentTop="true"
                         android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
                         android:orientation="vertical">
 
                         <ImageView
@@ -1079,8 +1085,8 @@
                         <ImageView
                             android:id="@+id/imageView91"
                             android:layout_width="wrap_content"
-                            android:layout_marginTop="-80dp"
                             android:layout_height="90dp"
+                            android:layout_marginTop="-80dp"
                             app:srcCompat="@drawable/backofcardimage4" />
 
                         <ImageView
@@ -1239,7 +1245,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
-                    android:background="@drawable/border_title1"
                     android:orientation="vertical"
                     android:padding="1dp">
 
@@ -1250,19 +1255,22 @@
                         android:layout_alignParentTop="true"
                         android:orientation="horizontal">
 
-                        <ImageView
+                        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
                             android:id="@+id/playeravatar1"
-                            android:layout_width="40dp"
+                            android:layout_width="55dp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="1dp"
-                            android:src="@drawable/kingdd" />
+                            android:src="@drawable/dgb9"
+                            app:civ_border_color="#FF000000"
+                            app:civ_border_width="2dp" />
 
                         <RelativeLayout
                             android:layout_width="wrap_content"
                             android:layout_height="@dimen/pcnheight"
                             android:layout_marginRight="5dp"
                             android:layout_toRightOf="@id/playeravatar1"
-                            android:orientation="vertical">
+                            android:orientation="vertical"
+                            android:visibility="gone">
 
                             <TextView
                                 android:id="@+id/playerpass1"
@@ -1284,6 +1292,7 @@
                                 android:textStyle="bold" />
 
                         </RelativeLayout>
+
                     </RelativeLayout>
 
                     <TextView
@@ -1310,7 +1319,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
-                    android:background="@drawable/border_title1"
                     android:orientation="vertical"
                     android:padding="1dp">
 
@@ -1321,13 +1329,15 @@
                         android:layout_alignParentTop="true"
                         android:orientation="horizontal">
 
-                        <ImageView
+                        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
                             android:id="@+id/playeravatar4"
-                            android:layout_width="40dp"
+                            android:layout_width="55dp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="1dp"
+                            android:src="@drawable/dgb8"
                             android:layout_toRightOf="@id/playernums4"
-                            android:src="@drawable/noimage" />
+                            app:civ_border_color="#FF000000"
+                            app:civ_border_width="2dp" />
 
                         <RelativeLayout
                             android:id="@+id/playernums4"
@@ -1364,7 +1374,7 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/car4"
                         android:layout_centerInParent="true"
-                        android:text=""
+                        android:text="Goku"
                         android:textColor="@color/white"
                         android:textSize="8dp" />
                 </RelativeLayout>
@@ -1386,9 +1396,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:paddingBottom="20dp"
                 android:baselineAligned="true"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:paddingBottom="20dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1646,8 +1656,8 @@
             android:id="@+id/topbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/black"
             android:layout_alignParentBottom="true"
+            android:background="@color/black"
             android:orientation="horizontal"
             android:padding="2dp">
 

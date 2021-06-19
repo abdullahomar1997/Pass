@@ -1202,7 +1202,7 @@ public class MainActivity extends AppCompatActivity {
 
             noCardsList.get(i).setText(String.valueOf(player.getNumberOfCardsLeft()));
 
-            avatarsList.get(i).setImageBitmap(convertStringCardToImage(player.getPlayerAvatar()));
+           // avatarsList.get(i).setImageBitmap(convertStringCardToImage(player.getPlayerAvatar()));
         }
     }
 
