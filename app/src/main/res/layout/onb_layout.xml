@@ -59,19 +59,9 @@
                             android:orientation="vertical">
 
                             <TextView
-                                android:id="@+id/playerpass2"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text=""
-                                android:textColor="@color/white"
-                                android:textSize="@dimen/passandcardstextsize"
-                                android:textStyle="bold" />
-
-                            <TextView
                                 android:id="@+id/playercards2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_below="@id/playerpass2"
                                 android:text=""
                                 android:textColor="@color/white"
                                 android:textSize="@dimen/passandcardstextsize"
@@ -112,7 +102,6 @@
                         android:layout_marginLeft="-280dp"
                         android:layout_weight="1"
                         app:srcCompat="@drawable/backofcardimage5" />
-
 
 
                     <ImageView
@@ -323,13 +312,32 @@
                         android:layout_weight="1"
                         app:srcCompat="@drawable/backofcardimage5" />
 
-                    <ImageView
-                        android:id="@+id/passcard3"
+                    <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="-280dp"
                         android:layout_weight="1"
-                        app:srcCompat="@drawable/passcardrotate" />
+                        android:layout_marginLeft="-280dp">
+
+                        <ImageView
+                            android:id="@+id/passcard3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/passcardrotate" />
+
+                        <TextView
+                            android:id="@+id/playerpass3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="165dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginRight="2dp"
+                            android:text="9"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/passandcardstextsize"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
 
 
                 </LinearLayout>
@@ -378,19 +386,9 @@
                             android:visibility="gone">
 
                             <TextView
-                                android:id="@+id/playerpass3"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text=""
-                                android:textColor="@color/white"
-                                android:textSize="@dimen/passandcardstextsize"
-                                android:textStyle="bold" />
-
-                            <TextView
                                 android:id="@+id/playercards3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_below="@id/playerpass3"
                                 android:text=""
                                 android:textColor="@color/white"
                                 android:textSize="@dimen/passandcardstextsize"
@@ -581,13 +579,33 @@
                             android:layout_marginTop="-80dp"
                             app:srcCompat="@drawable/backofcardimage4" />
 
-                        <ImageView
-                            android:id="@+id/passcard2"
+                        <RelativeLayout
                             android:layout_width="48dp"
-                            android:layout_marginLeft="1dp"
                             android:layout_height="90dp"
-                            android:layout_marginTop="-80dp"
-                            app:srcCompat="@drawable/passcard" />
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="-80dp">
+
+                            <ImageView
+                                android:id="@+id/passcard2"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                app:srcCompat="@drawable/passcard" />
+
+                            <TextView
+                                android:id="@+id/playerpass2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerHorizntal="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="2dp"
+                                android:text="9"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/passandcardstextsize"
+                                android:textStyle="bold" />
+
+                        </RelativeLayout>
 
                     </LinearLayout>
 
@@ -1234,14 +1252,33 @@
                             android:layout_marginTop="-80dp"
                             app:srcCompat="@drawable/backofcardimage4" />
 
-                        <ImageView
-                            android:id="@+id/passcard4"
+                        <RelativeLayout
                             android:layout_width="48dp"
-                            android:layout_marginLeft="1dp"
                             android:layout_height="90dp"
-                            android:layout_marginTop="-80dp"
-                            app:srcCompat="@drawable/passcard" />
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="-80dp">
 
+                            <ImageView
+                                android:id="@+id/passcard4"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                app:srcCompat="@drawable/passcard" />
+
+                            <TextView
+                                android:id="@+id/playerpass4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentTop="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerHorizntal="true"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="2dp"
+                                android:text="9"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/passandcardstextsize"
+                                android:textStyle="bold" />
+
+                        </RelativeLayout>
 
                     </LinearLayout>
 
@@ -1301,15 +1338,6 @@
                             android:visibility="gone">
 
                             <TextView
-                                android:id="@+id/playerpass1"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="1"
-                                android:textColor="@color/white"
-                                android:textSize="@dimen/passandcardstextsize"
-                                android:textStyle="bold" />
-
-                            <TextView
                                 android:id="@+id/playercards1"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -1362,8 +1390,8 @@
                             android:layout_width="55dp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="1dp"
-                            android:src="@drawable/dgb8"
                             android:layout_toRightOf="@id/playernums4"
+                            android:src="@drawable/dgb8"
                             app:civ_border_color="#FF000000"
                             app:civ_border_width="2dp" />
 
@@ -1373,15 +1401,6 @@
                             android:layout_height="@dimen/pcnheight"
                             android:layout_marginLeft="5dp"
                             android:orientation="vertical">
-
-                            <TextView
-                                android:id="@+id/playerpass4"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text=""
-                                android:textColor="@color/white"
-                                android:textSize="@dimen/passandcardstextsize"
-                                android:textStyle="bold" />
 
                             <TextView
                                 android:id="@+id/playercards4"
@@ -1417,7 +1436,8 @@
             android:layout_height="wrap_content"
             android:layout_above="@id/topbar"
             android:layout_marginTop="10dp"
-            android:background="@drawable/border_title1">
+            android:background="@drawable/border_title1"
+            android:visibility="visible">
 
             <LinearLayout
                 android:id="@+id/selcards"
@@ -1666,13 +1686,34 @@
                         android:padding="@dimen/selectcardpadding"
                         app:srcCompat="@drawable/da" />
 
-                    <ImageView
-                        android:id="@+id/passcard"
+                    <RelativeLayout
                         android:layout_width="@dimen/selectcardwidth"
                         android:layout_height="@dimen/selectcardheight"
+                        android:layout_marginLeft="1dp"
                         android:layout_weight="1"
-                        android:padding="@dimen/selectcardpadding"
-                        app:srcCompat="@drawable/passcardbw" />
+                        android:padding="@dimen/selectcardpadding">
+
+                        <ImageView
+                            android:id="@+id/passcard1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            app:srcCompat="@drawable/passcardbw" />
+
+                        <TextView
+                            android:id="@+id/playerpass1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerHorizntal="true"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginRight="2dp"
+                            android:text="9"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/passandcardstextsize"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
 
                 </LinearLayout>
 
