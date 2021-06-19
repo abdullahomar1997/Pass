@@ -10,6 +10,6 @@
     <dimen name="playerscardwidth">85dp</dimen>
     <dimen name="playerscardheight">85dp</dimen>
     <dimen name="selectcardpadding">1dp</dimen>
-    <dimen name="pcnheight">30dp</dimen>
+    <dimen name="pcnheight">50dp</dimen>
     <dimen name="passandcardstextsize">10dp</dimen>
 </resources>
