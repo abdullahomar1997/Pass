@@ -342,16 +342,6 @@
 
                 </LinearLayout>
 
-
-                <ImageView
-                    android:id="@+id/pointleftiv3"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginRight="5dp"
-                    android:layout_toLeftOf="@id/playerlayout3"
-                    android:src="@drawable/pointright" />
-
                 <RelativeLayout
                     android:id="@+id/playerlayout3"
                     android:layout_width="wrap_content"
@@ -425,14 +415,6 @@
                     android:layout_height="300dp"
                     android:layout_alignParentLeft="true"
                     android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/pointleftiv2"
-                        android:layout_width="30dp"
-                        android:layout_height="30dp"
-                        android:layout_marginLeft="5dp"
-                        android:layout_marginTop="5dp"
-                        android:src="@drawable/pointup" />
 
                     <LinearLayout
                         android:layout_width="50dp"
@@ -597,7 +579,6 @@
                                 android:layout_height="wrap_content"
                                 android:layout_alignParentTop="true"
                                 android:layout_alignParentRight="true"
-                                android:layout_centerHorizntal="true"
                                 android:layout_marginTop="10dp"
                                 android:layout_marginRight="2dp"
                                 android:text="9"
@@ -1270,7 +1251,6 @@
                                 android:layout_height="wrap_content"
                                 android:layout_alignParentTop="true"
                                 android:layout_alignParentRight="true"
-                                android:layout_centerHorizntal="true"
                                 android:layout_marginTop="10dp"
                                 android:layout_marginRight="2dp"
                                 android:text="9"
@@ -1281,17 +1261,6 @@
                         </RelativeLayout>
 
                     </LinearLayout>
-
-
-                    <ImageView
-                        android:id="@+id/pointleftiv4"
-                        android:layout_width="30dp"
-                        android:layout_height="30dp"
-                        android:layout_alignParentRight="true"
-                        android:layout_alignParentBottom="true"
-                        android:layout_marginRight="5dp"
-                        android:layout_marginBottom="5dp"
-                        android:src="@drawable/pointdown" />
 
                 </RelativeLayout>
 
@@ -1341,7 +1310,6 @@
                                 android:id="@+id/playercards1"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_below="@id/playerpass1"
                                 android:text="26"
                                 android:textColor="@color/white"
                                 android:textSize="@dimen/passandcardstextsize"
@@ -1361,14 +1329,6 @@
                         android:textColor="@color/white"
                         android:textSize="8dp" />
                 </RelativeLayout>
-
-                <ImageView
-                    android:id="@+id/pointleftiv"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_marginLeft="5dp"
-                    android:layout_toRightOf="@id/playerlayout1"
-                    android:src="@drawable/pointleft" />
 
                 <RelativeLayout
                     android:id="@+id/playerlayout4"
@@ -1406,7 +1366,6 @@
                                 android:id="@+id/playercards4"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_below="@id/playerpass4"
                                 android:text=""
                                 android:textColor="@color/white"
                                 android:textSize="@dimen/passandcardstextsize"
@@ -1694,7 +1653,7 @@
                         android:padding="@dimen/selectcardpadding">
 
                         <ImageView
-                            android:id="@+id/passcard1"
+                            android:id="@+id/passcard"
                             android:layout_width="fill_parent"
                             android:layout_height="fill_parent"
                             app:srcCompat="@drawable/passcardbw" />
@@ -1705,7 +1664,6 @@
                             android:layout_height="wrap_content"
                             android:layout_alignParentTop="true"
                             android:layout_alignParentRight="true"
-                            android:layout_centerHorizntal="true"
                             android:layout_marginTop="1dp"
                             android:layout_marginRight="2dp"
                             android:text="9"

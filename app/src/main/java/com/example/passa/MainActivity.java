@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
     //3e434c
     //365880
 
-    final ImageOfFingers imageOfFingers = new ImageOfFingers();
+    //final ImageOfFingers imageOfFingers = new ImageOfFingers();
     private final ImageViewOfCardsPlayed imageViewOfCardsPlayed = new ImageViewOfCardsPlayed();
     private final ImageViewOfDeck imageViewOfDeck = new ImageViewOfDeck();
 
@@ -54,8 +54,8 @@ public class MainActivity extends AppCompatActivity {
 
     Animation animation;
 
-    ArrayList<ImageView> fingerList;
-    ArrayList<ImageView> fingerp;
+    //ArrayList<ImageView> fingerList;
+    //ArrayList<ImageView> fingerp;
 
     private int currentApiVersion;
 
@@ -122,13 +122,13 @@ public class MainActivity extends AppCompatActivity {
 
             setUpPlayerLayout();
 
-            setUpFingers(game);
+            //setUpFingers(game);
 
             setUpPlayers(game);
 
             animation = new AlphaAnimation(1, 0); //to change visibility from visible to invisible
 
-            fingerList.get(0).setVisibility(View.VISIBLE);
+          //  fingerList.get(0).setVisibility(View.VISIBLE);
 
             updateOngoingGameTable(PlayedCards);
             cpuPlay(game,"");
@@ -141,13 +141,13 @@ public class MainActivity extends AppCompatActivity {
 
             setUpPlayerLayout();
 
-            setUpFingers(game);
+          //  setUpFingers(game);
 
             setUpPlayers(game);
 
             animation = new AlphaAnimation(1, 0); //to change visibility from visible to invisible
 
-            fingerList.get(0).setVisibility(View.VISIBLE);
+         //   fingerList.get(0).setVisibility(View.VISIBLE);
 
         }
 
@@ -420,12 +420,12 @@ public class MainActivity extends AppCompatActivity {
 
     private void setUpFingers(Game game) {
 
-        fingerp = new ArrayList<>();
-
-        for (int i = 1; i < game.getGameNoOfPlayers(); ++i) {
-            fingerp.add(fingerList.get(i - 1));
-        }
-        fingerp.add(0, fingerList.get(game.getGameNoOfPlayers() - 1));
+//        fingerp = new ArrayList<>();
+//
+//        for (int i = 1; i < game.getGameNoOfPlayers(); ++i) {
+//            fingerp.add(fingerList.get(i - 1));
+//        }
+//        fingerp.add(0, fingerList.get(game.getGameNoOfPlayers() - 1));
     }
 
     private int getRandomPosition(int maximum, int minimum) {
@@ -434,7 +434,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void Play(Game game, int cardNumber, TextView messageTv, ImageView button) {
 
-        fingerList.get(0).clearAnimation();
+        //fingerList.get(0).clearAnimation();
 
         if (myTurn) {
 
@@ -468,7 +468,6 @@ public class MainActivity extends AppCompatActivity {
                     cpuPlay(game, "");
                 }
             }
-
         }
     }
 
@@ -498,8 +497,8 @@ public class MainActivity extends AppCompatActivity {
 
     private void cpuPlayCard(Game game, int m) {
 
-        fingerp.get(m).setVisibility(View.INVISIBLE);
-        fingerList.get(m).setVisibility(View.VISIBLE);
+        //fingerp.get(m).setVisibility(View.INVISIBLE);
+        //fingerList.get(m).setVisibility(View.VISIBLE);
 
         String cpuCard = game.cpuAutoPlayCardNum(m);
         cardsPlayed+=":"+cpuCard;
@@ -516,8 +515,8 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void run() {
 
-                    fingerList.get(0).setVisibility(View.VISIBLE);
-                    fingerp.get(0).setVisibility(View.INVISIBLE);
+                  //  fingerList.get(0).setVisibility(View.VISIBLE);
+                  //  fingerp.get(0).setVisibility(View.INVISIBLE);
 
                     myTurn = true;
 
@@ -536,7 +535,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void enablePassButton() {
 
-        passButton.setImageBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.passcard));
+        passButton.setImageBitmap(BitmapFactory.decodeResource(getResources(), R.drawable
+                .passcard));
         passButton.setEnabled(true);
     }
 
@@ -1112,22 +1112,22 @@ public class MainActivity extends AppCompatActivity {
 
     public void setUpPlayerLayout() {
 
-        imageOfFingers.setFingerPointPlayer1((ImageView) findViewById(R.id.pointleftiv));
-        imageOfFingers.setFingerPointPlayer2((ImageView) findViewById(R.id.pointleftiv2));
-        imageOfFingers.setFingerPointPlayer3((ImageView) findViewById(R.id.pointleftiv3));
-        imageOfFingers.setFingerPointPlayer4((ImageView) findViewById(R.id.pointleftiv4));
-
-        imageOfFingers.getFingerPointPlayer1().setVisibility(View.INVISIBLE);
-        imageOfFingers.getFingerPointPlayer2().setVisibility(View.INVISIBLE);
-        imageOfFingers.getFingerPointPlayer3().setVisibility(View.INVISIBLE);
-        imageOfFingers.getFingerPointPlayer4().setVisibility(View.INVISIBLE);
-
-        fingerList = new ArrayList<>();
-
-        fingerList.add(imageOfFingers.getFingerPointPlayer1());
-        fingerList.add(imageOfFingers.getFingerPointPlayer2());
-        fingerList.add(imageOfFingers.getFingerPointPlayer3());
-        fingerList.add(imageOfFingers.getFingerPointPlayer4());
+//        imageOfFingers.setFingerPointPlayer1((ImageView) findViewById(R.id.pointleftiv));
+//        imageOfFingers.setFingerPointPlayer2((ImageView) findViewById(R.id.pointleftiv2));
+//        imageOfFingers.setFingerPointPlayer3((ImageView) findViewById(R.id.pointleftiv3));
+//        imageOfFingers.setFingerPointPlayer4((ImageView) findViewById(R.id.pointleftiv4));
+//
+//        imageOfFingers.getFingerPointPlayer1().setVisibility(View.INVISIBLE);
+//        imageOfFingers.getFingerPointPlayer2().setVisibility(View.INVISIBLE);
+//        imageOfFingers.getFingerPointPlayer3().setVisibility(View.INVISIBLE);
+//        imageOfFingers.getFingerPointPlayer4().setVisibility(View.INVISIBLE);
+//
+//        fingerList = new ArrayList<>();
+//
+//        fingerList.add(imageOfFingers.getFingerPointPlayer1());
+//        fingerList.add(imageOfFingers.getFingerPointPlayer2());
+//        fingerList.add(imageOfFingers.getFingerPointPlayer3());
+//        fingerList.add(imageOfFingers.getFingerPointPlayer4());
 
         RelativeLayout currentGameInfoLayoutPlayer1 = (RelativeLayout) findViewById(R.id.playerlayout1);
         RelativeLayout currentGameInfoLayoutPlayer2 = (RelativeLayout) findViewById(R.id.playerlayout2);
